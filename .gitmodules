@@ -2,3 +2,7 @@
 	path = _layouts
 	url = https://github.com/thekaveman/csm-jekyll-layouts.git
 	branch = master
+[submodule "common"]
+	path = common
+	url = https://github.com/thekaveman/csm-common.git
+	branch = master
