@@ -1,0 +1,44 @@
+---
+permalink: /planning/workshops/
+---
+
+<h1>What's Next for the Santa Monica Civic Auditorium?</h1>
+
+<p>Join us for interactive community workshops; experience the facility, explore the site and discuss uses proposed by the community.</p>
+
+{% for workshop in site.workshops %}
+
+<article class="workshop">
+    <h2>{{ workshop.title }}</h2>
+    
+    <p>
+        <strong>Date:</strong> {{ workshop.date }}
+    </p>
+    <p>
+        <strong>Time:</strong>
+        {% for schedule in workshop.schedule %}
+        
+            <br />{{ schedule.time }} {{ schedule.event }}
+        
+        {% endfor %}
+    </p>
+    <p>
+        <strong>Location:</strong> 
+        <a href="{% if workshop.location.url %}{{ workshop.location.url }}{% else %}{{ site.map_url }}{% endif %}" target="_blank">
+            {% if workshop.location.name %}{{ workshop.location.name }}
+            {% else %}Santa Monica Civic Auditorium East Wing
+            {% endif %}
+            {% if workshop.location.address %}{{ workshop.location.address | append: ',' }}
+            {% else %}, {{ site.street | trim }}, {{ site.city }}, {{ site.state }}{% endif %}            
+        </a>
+    </p>
+    <p>
+        <strong>Parking:</strong> {{ workshop.parking }}
+    </p>
+    
+    {{ workshop.content }}
+</article>
+
+{% endfor %}
+
+<p>Use <strong>#FutureSMCivic</strong> to share your ideas about the future of the Civic on social media.</p>
