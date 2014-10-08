@@ -1,0 +1,13 @@
+ul.nav {
+    li.dropdown { 
+        position: relative;
+        
+        ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+        }
+        
+        &:hover ul { display: block; }            
+    }
+}

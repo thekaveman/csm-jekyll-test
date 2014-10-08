@@ -13,6 +13,10 @@ attribution: footer/attribution.html
 localcss: 
   - /css/main.css
 
+localjs:
+  - /common/js/doubletaptogo.js
+  - /js/nav-dropdown.js
+
 #jekyll build settings
 markdown: kramdown
 
