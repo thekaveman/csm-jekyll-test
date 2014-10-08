@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div class="home">
-    {% capture intro %}{% include homepage/intro.md %}{% endcapture %}
-    {{ intro | markdownify }}
-</div>
+{% capture intro %}{% include homepage/intro.md %}{% endcapture %}
+{{ intro | markdownify }}
 
-<div class="home">
-    {% capture inquiries %}{% include homepage/inquiries.md %}{% endcapture %}
-    {{ inquiries | markdownify }}
-    
-    {% include emma.html %}
-</div>
+{% capture inquiries %}{% include homepage/inquiries.md %}{% endcapture %}
+{{ inquiries | markdownify }}
+
+{% include emma.html %}
