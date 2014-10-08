@@ -25,3 +25,17 @@ h1,h2,h3,h4,h5,h6 {
 a { 
     color: $light-blue;
 }
+
+.site-footer {
+    background-color: $dark-blue;
+    color: $white;
+    padding-top: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
+    
+    a {
+      color: $white;   
+    }
+}
+
+@import
+    "emma";

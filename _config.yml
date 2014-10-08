@@ -1,12 +1,16 @@
 #site config
 name: Civic Auditorium
 email: civic@smgov.net
+phone: 310-458-8350
+rentalphone: 310-458-4924
+
 baseurl: /csm-jekyll-test
+mapurl: https://goo.gl/maps/sDOrU
 
 #include definitions
-primary_nav: primary-nav.html
+attribution: footer/attribution.html
 
-local_css: 
+localcss: 
   - /css/main.css
 
 #jekyll build settings
@@ -17,4 +21,4 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "page"
+      layout: page
