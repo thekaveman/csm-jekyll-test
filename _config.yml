@@ -3,6 +3,10 @@ name: Civic Auditorium
 email: civic@smgov.net
 phone: 310-458-8350
 rentalphone: 310-458-4924
+address: 1685 Main Street
+city: Santa Monica
+state: CA
+zip: 90401
 
 baseurl: /csm-jekyll-test
 mapurl: https://goo.gl/maps/sDOrU
