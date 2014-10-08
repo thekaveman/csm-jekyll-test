@@ -3,6 +3,7 @@ title: The Civic Working Group
 permalink: /planning/cwg/
 ---
 
+{:.lead}
 City Council appointed a 9 member [Civic Working Group](http://www.smgov.net/departments/Council/agendas/2013/20131022/s2013102208-A.htm){:target="_blank"} in October 2013 to advise Council on options for the future of the Santa Monica Civic Auditorium.
 
 The Working Group is comprised of 4 members who currently serve, or have served, on the Santa Monica's Arts, Landmarks, Planning, and Recreation and Parks Commissions, and 5 at-large members with broad knowledge of Santa Monica and professional expertise in 1 or more of a variety of relevant disciplines.
@@ -21,7 +22,7 @@ The Working Group is comprised of 4 members who currently serve, or have served,
 
 ## Our Meetings
 
-The Civic Working Group holds its regular meetings on the fourth Monday of each month at 6:30 p.m. at the [Santa Monica Civic Auditorium East Wing, {{ site.address }}, {{ site.city }}, {{ site.state }} {{ site.zip }}]({{ site.map_url }}){:target="_blank"}
+The Civic Working Group holds its regular meetings on the fourth Monday of each month at 6:30 p.m. at the [Santa Monica Civic Auditorium East Wing, {{ site.address }}, {{ site.city }}, {{ site.state }} {{ site.zip }}]({{ site.mapurl }}){:target="_blank"}
 
 ## What We Do
 

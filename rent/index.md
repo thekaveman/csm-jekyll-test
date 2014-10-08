@@ -3,6 +3,7 @@ title: Rent the Civic
 permalink: /rent/
 ---
 
+{:.lead}
 The Civic Auditorium is currently available for limited filming, photo shoots, private events, and meetings.
 
 For rental availability and fees please contact:  
