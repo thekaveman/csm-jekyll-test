@@ -1,7 +1,20 @@
-title: csm-jekyll-test
-email: kegan.maher@smgov.net
+#site config
+name: Civic Auditorium
+email: civic@smgov.net
 baseurl: /csm-jekyll-test
-github_username:  thekaveman
 
-# Build settings
+#include definitions
+primary_nav: primary-nav.html
+
+local_css: 
+  - /css/main.css
+
+#jekyll build settings
 markdown: kramdown
+
+#defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
